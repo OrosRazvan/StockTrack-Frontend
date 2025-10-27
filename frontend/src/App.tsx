@@ -1,9 +1,5 @@
-import Typography from "@mui/material/Typography";
+import Dashboard from "./pages/Dashboard";
 
 export const App = () => {
-  return (
-    <Typography variant="h5" color="secondary" sx={{ fontWeight: 600 }}>
-      This is an initial commit message
-    </Typography>
-  );
+  return <Dashboard />;
 };
